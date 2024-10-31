@@ -15,9 +15,9 @@ const MapComponent: React.FC = () => {
                 Papa.parse<LocationData>(data, {
                     header: true,
                     dynamicTyping: true,
+                    skipEmptyLines: true,
                     complete: (results) => {
                         setLocations(results.data);
-                        console.log(locations);
                     },
                     error: (error: Error) => {
                         console.error('Error parsing CSV:', error);
@@ -45,7 +45,6 @@ const MapComponent: React.FC = () => {
             />
             {locations.map((location, index) => {
                 const position: LatLngExpression = [Number(location.stop_lat), Number(location.stop_lon)];
-                console.log(position);
                 return (
                     <Marker key={index} position={position} icon={L.divIcon({
                         className: 'custom-icon',
