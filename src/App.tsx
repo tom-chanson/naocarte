@@ -1,10 +1,10 @@
 import "./App.css";
-import Map from "./components/map";
+import MapComponent from "./components/MapComponent.tsx";
 
 function App() {
   return (
     <>
-      <Map />
+      <MapComponent />
     </>
   );
 }
