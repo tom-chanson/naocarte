@@ -1,18 +1,36 @@
 import "leaflet/dist/leaflet.css";
 import React, { useEffect, useState } from "react";
-import { MapContainer, TileLayer } from "react-leaflet";
+import { MapContainer, TileLayer, useMapEvents } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import "react-leaflet-markercluster/dist/styles.min.css";
+import { Shape } from "../interfaces/shape";
 import { Stop } from "../interfaces/Stop";
+import { LineMap } from "./LineMap";
 import { MarkerMap } from "./MarkerMap";
 
 const MapComponent: React.FC = () => {
   const [stops, setStops] = useState<Stop[]>([]);
+  const [shapes, setShapes] = useState<Shape[]>([]);
+  const [zoomLevel, setZoomLevel] = useState(12);
+
+  const MapEvents = () => {
+    useMapEvents({
+      zoomend: (event) => {
+        setZoomLevel(event.target.getZoom());
+      },
+    });
+    return null;
+  };
 
   useEffect(() => {
     fetch("data/stop.json").then((response) =>
       response.json().then((data) => {
         setStops(data);
+      })
+    );
+    fetch("data/shape.json").then((response) =>
+      response.json().then((data) => {
+        setShapes(data);
       })
     );
   }, []);
@@ -24,6 +42,8 @@ const MapComponent: React.FC = () => {
       style={{ height: "100vh", width: "100%" }}
       maxZoom={19}
     >
+      <MapEvents />
+
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -31,7 +51,7 @@ const MapComponent: React.FC = () => {
       />
       <MarkerClusterGroup
         animate={true}
-        disableClusteringAtZoom={16}
+        disableClusteringAtZoom={15}
         spiderfyOnMaxZoom={false}
         showCoverageOnHover={true}
         zoomToBoundsOnClick={true}
@@ -40,6 +60,10 @@ const MapComponent: React.FC = () => {
           return <MarkerMap stop={stop} key={index}></MarkerMap>;
         })}
       </MarkerClusterGroup>
+      {zoomLevel > 13 &&
+        shapes.map((shape, index) => {
+          return <LineMap shape={shape} key={index}></LineMap>;
+        })}
     </MapContainer>
   );
 };
