@@ -18,6 +18,7 @@ const MapComponent: React.FC = () => {
   const [showBus, setShowBus] = useState(true);
   const [showTram, setShowTram] = useState(true);
   const [showBoat, setShowBoat] = useState(true);
+  const [showAccessible, setShowAccessible] = useState(false);
 
   const MapEvents = () => {
     useMapEvents({
@@ -45,8 +46,8 @@ const MapComponent: React.FC = () => {
         setShowBus={setShowBus}
         setShowTram={setShowTram}
         setShowBoat={setShowBoat}
+        setShowAccessible={setShowAccessible}
       />
-
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -56,20 +57,19 @@ const MapComponent: React.FC = () => {
         animate={true}
         disableClusteringAtZoom={15}
         spiderfyOnMaxZoom={false}
-        showCoverageOnHover={true}
+        showCoverageOnHover={false}
         zoomToBoundsOnClick={true}
       >
-        {stops.map((stop, index) => {
-          return (
-            <MarkerMap
-              stop={stop}
-              key={index}
-              showBoat={showBoat}
-              showBus={showBus}
-              showTram={showTram}
-            ></MarkerMap>
-          );
-        })}
+        {stops.map((stop, index) => (
+          <MarkerMap
+            stop={stop}
+            key={index}
+            showBoat={showBoat}
+            showBus={showBus}
+            showTram={showTram}
+            showAccessible={showAccessible}
+          />
+        ))}
       </MarkerClusterGroup>
       {zoomLevel > 13 &&
         shapes.map((shape, index) => {
@@ -78,7 +78,7 @@ const MapComponent: React.FC = () => {
             (shape.route_type === lineType.TRAM && showTram) ||
             (shape.route_type === lineType.NAVIBUS && showBoat)
           )
-            return <LineMap shape={shape} key={index}></LineMap>;
+            return <LineMap shape={shape} key={index} />;
         })}
     </MapContainer>
   );
