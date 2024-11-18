@@ -6,7 +6,8 @@ import "react-leaflet-markercluster/dist/styles.min.css";
 import shapeData from "../data/shape.json";
 import stopData from "../data/stop.json";
 import { Shape } from "../interfaces/shape";
-import { Stop } from "../interfaces/Stop";
+import { lineType, Stop } from "../interfaces/Stop";
+import { Filter } from "./filter";
 import { LineMap } from "./LineMap";
 import { MarkerMap } from "./MarkerMap";
 
@@ -14,6 +15,9 @@ const MapComponent: React.FC = () => {
   const [stops, setStops] = useState<Stop[]>([]);
   const [shapes, setShapes] = useState<Shape[]>([]);
   const [zoomLevel, setZoomLevel] = useState(12);
+  const [showBus, setShowBus] = useState(true);
+  const [showTram, setShowTram] = useState(true);
+  const [showBoat, setShowBoat] = useState(true);
 
   const MapEvents = () => {
     useMapEvents({
@@ -37,6 +41,11 @@ const MapComponent: React.FC = () => {
       maxZoom={19}
     >
       <MapEvents />
+      <Filter
+        setShowBus={setShowBus}
+        setShowTram={setShowTram}
+        setShowBoat={setShowBoat}
+      />
 
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -51,12 +60,25 @@ const MapComponent: React.FC = () => {
         zoomToBoundsOnClick={true}
       >
         {stops.map((stop, index) => {
-          return <MarkerMap stop={stop} key={index}></MarkerMap>;
+          return (
+            <MarkerMap
+              stop={stop}
+              key={index}
+              showBoat={showBoat}
+              showBus={showBus}
+              showTram={showTram}
+            ></MarkerMap>
+          );
         })}
       </MarkerClusterGroup>
       {zoomLevel > 13 &&
         shapes.map((shape, index) => {
-          return <LineMap shape={shape} key={index}></LineMap>;
+          if (
+            (shape.route_type === lineType.BUS && showBus) ||
+            (shape.route_type === lineType.TRAM && showTram) ||
+            (shape.route_type === lineType.NAVIBUS && showBoat)
+          )
+            return <LineMap shape={shape} key={index}></LineMap>;
         })}
     </MapContainer>
   );

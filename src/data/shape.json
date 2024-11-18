@@ -2,6 +2,7 @@
   {
     "route_id": "1-0",
     "route_color": "007A45",
+    "route_type": 0,
     "shapes": [
       {
         "shape_id": "110819",
@@ -728,6 +729,7 @@
   {
     "route_id": "10-0",
     "route_color": "FFED00",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1010114",
@@ -1343,6 +1345,7 @@
   {
     "route_id": "102-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1021043",
@@ -1515,6 +1518,7 @@
   {
     "route_id": "104-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1041024",
@@ -1606,6 +1610,7 @@
   {
     "route_id": "105-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1051023",
@@ -1653,6 +1658,7 @@
   {
     "route_id": "108-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1081034",
@@ -1762,6 +1768,7 @@
   {
     "route_id": "109-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1091053",
@@ -1857,6 +1864,7 @@
   {
     "route_id": "11-0",
     "route_color": "E9C389",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1110512",
@@ -2233,6 +2241,7 @@
   {
     "route_id": "111-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1111023",
@@ -2256,6 +2265,7 @@
   {
     "route_id": "112-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1121030",
@@ -2311,6 +2321,7 @@
   {
     "route_id": "115-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1151017",
@@ -2410,6 +2421,7 @@
   {
     "route_id": "117-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1171025",
@@ -2489,6 +2501,7 @@
   {
     "route_id": "118-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1181017",
@@ -2528,6 +2541,7 @@
   {
     "route_id": "119-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1191018",
@@ -2611,6 +2625,7 @@
   {
     "route_id": "12-0",
     "route_color": "B5DDF3",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1210642",
@@ -2774,6 +2789,7 @@
   {
     "route_id": "122-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1221032",
@@ -2849,6 +2865,7 @@
   {
     "route_id": "128-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1281055",
@@ -2936,6 +2953,7 @@
   {
     "route_id": "129-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1291021",
@@ -3027,6 +3045,7 @@
   {
     "route_id": "131-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1311026",
@@ -3126,6 +3145,7 @@
   {
     "route_id": "135-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "135106",
@@ -3249,6 +3269,7 @@
   {
     "route_id": "137-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1371060",
@@ -3698,6 +3719,7 @@
   {
     "route_id": "138-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1381046",
@@ -3797,6 +3819,7 @@
   {
     "route_id": "141-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "141104",
@@ -3820,6 +3843,7 @@
   {
     "route_id": "142-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1421021",
@@ -3839,6 +3863,7 @@
   {
     "route_id": "147-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1471053",
@@ -3970,6 +3995,7 @@
   {
     "route_id": "149-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1491011",
@@ -4041,6 +4067,7 @@
   {
     "route_id": "152-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1521017",
@@ -4144,6 +4171,7 @@
   {
     "route_id": "157-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1571022",
@@ -4283,6 +4311,7 @@
   {
     "route_id": "158-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1581043",
@@ -4370,6 +4399,7 @@
   {
     "route_id": "159-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1591052",
@@ -4433,6 +4463,7 @@
   {
     "route_id": "162-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1621033",
@@ -4552,6 +4583,7 @@
   {
     "route_id": "168-0",
     "route_color": "000000",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1681032",
@@ -4623,6 +4655,7 @@
   {
     "route_id": "169-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1691019",
@@ -4698,6 +4731,7 @@
   {
     "route_id": "172-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1721019",
@@ -4810,6 +4844,7 @@
   {
     "route_id": "179-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "1791064",
@@ -4982,6 +5017,7 @@
   {
     "route_id": "2-0",
     "route_color": "E53138",
+    "route_type": 0,
     "shapes": [
       {
         "shape_id": "210316",
@@ -5647,6 +5683,7 @@
   {
     "route_id": "23-0",
     "route_color": "34B4E4",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "2310377",
@@ -6019,6 +6056,7 @@
   {
     "route_id": "26-0",
     "route_color": "009534",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "2610472",
@@ -6190,6 +6228,7 @@
   {
     "route_id": "27-0",
     "route_color": "B5DDF3",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "2710147",
@@ -6382,6 +6421,7 @@
   {
     "route_id": "28-0",
     "route_color": "B5DDF3",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "2810135",
@@ -6696,6 +6736,7 @@
   {
     "route_id": "3-0",
     "route_color": "0079BC",
+    "route_type": 0,
     "shapes": [
       {
         "shape_id": "310373",
@@ -7110,6 +7151,7 @@
   {
     "route_id": "30-0",
     "route_color": "FFED00",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "3010134",
@@ -7847,6 +7889,7 @@
   {
     "route_id": "33-0",
     "route_color": "F5BAC6",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "331068",
@@ -7983,6 +8026,7 @@
   {
     "route_id": "36-0",
     "route_color": "00A4A7",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "3610148",
@@ -8264,6 +8308,7 @@
   {
     "route_id": "38-0",
     "route_color": "009640",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "3810234",
@@ -8359,6 +8404,7 @@
   {
     "route_id": "3B-0",
     "route_color": "0079BC",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "3B10462",
@@ -8406,6 +8452,7 @@
   {
     "route_id": "4-0",
     "route_color": "FDC600",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "410108",
@@ -8477,6 +8524,7 @@
   {
     "route_id": "40-0",
     "route_color": "FFED00",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "401058",
@@ -8508,6 +8556,7 @@
   {
     "route_id": "42-0",
     "route_color": "CBD300",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "4210108",
@@ -8619,6 +8668,7 @@
   {
     "route_id": "47-0",
     "route_color": "BEABD0",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "471087",
@@ -8795,6 +8845,7 @@
   {
     "route_id": "5-0",
     "route_color": "34B4E4",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "510450",
@@ -8931,6 +8982,7 @@
   {
     "route_id": "50-0",
     "route_color": "FFED00",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "5010829",
@@ -9843,6 +9895,7 @@
   {
     "route_id": "54-0",
     "route_color": "CBD300",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "5410662",
@@ -9962,6 +10015,7 @@
   {
     "route_id": "59-0",
     "route_color": "F5BAC6",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "5910233",
@@ -10403,6 +10457,7 @@
   {
     "route_id": "60-0",
     "route_color": "F8EA22",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "6010364",
@@ -10486,6 +10541,7 @@
   {
     "route_id": "66-0",
     "route_color": "2C4393",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "661072",
@@ -10525,6 +10581,7 @@
   {
     "route_id": "67-0",
     "route_color": "2C4393",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "671070",
@@ -10600,6 +10657,7 @@
   {
     "route_id": "69-0",
     "route_color": "C0893A",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "691050",
@@ -10748,6 +10806,7 @@
   {
     "route_id": "71-0",
     "route_color": "CBD300",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "7110126",
@@ -11012,6 +11071,7 @@
   {
     "route_id": "75-0",
     "route_color": "E9C389",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "7510192",
@@ -11232,6 +11292,7 @@
   {
     "route_id": "77-0",
     "route_color": "B5DDF3",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "771066",
@@ -11371,6 +11432,7 @@
   {
     "route_id": "78-0",
     "route_color": "F8B323",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "7810100",
@@ -11679,6 +11741,7 @@
   {
     "route_id": "79-0",
     "route_color": "F5BAC6",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "791071",
@@ -11794,6 +11857,7 @@
   {
     "route_id": "80-0",
     "route_color": "FFED00",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "8010276",
@@ -12180,6 +12244,7 @@
   {
     "route_id": "81-0",
     "route_color": "00A4A7",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "8110178",
@@ -12972,6 +13037,7 @@
   {
     "route_id": "85-0",
     "route_color": "F5BAC6",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "8510115",
@@ -13325,6 +13391,7 @@
   {
     "route_id": "86-0",
     "route_color": "34B4E4",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "8610840",
@@ -13561,6 +13628,7 @@
   {
     "route_id": "87-0",
     "route_color": "F8B323",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "871089",
@@ -13704,6 +13772,7 @@
   {
     "route_id": "88-0",
     "route_color": "BEABD0",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "8810189",
@@ -13960,6 +14029,7 @@
   {
     "route_id": "89-0",
     "route_color": "77AD1C",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "891089",
@@ -14123,6 +14193,7 @@
   {
     "route_id": "91-0",
     "route_color": "009534",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "9110252",
@@ -14827,6 +14898,7 @@
   {
     "route_id": "93-0",
     "route_color": "00A4A7",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "9310127",
@@ -15085,6 +15157,7 @@
   {
     "route_id": "95-0",
     "route_color": "CBD300",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "951097",
@@ -15184,6 +15257,7 @@
   {
     "route_id": "96-0",
     "route_color": "F8B323",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "9610119",
@@ -15283,6 +15357,7 @@
   {
     "route_id": "97-0",
     "route_color": "BEABD0",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "9710272",
@@ -15426,6 +15501,7 @@
   {
     "route_id": "98-0",
     "route_color": "F8B323",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "9810269",
@@ -16067,6 +16143,7 @@
   {
     "route_id": "C1-0",
     "route_color": "34B4E4",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "C1102132",
@@ -16323,6 +16400,7 @@
   {
     "route_id": "C2-0",
     "route_color": "ED7703",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "C210836",
@@ -16450,6 +16528,7 @@
   {
     "route_id": "C20-0",
     "route_color": "F8EA22",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "C2010505",
@@ -16609,6 +16688,7 @@
   {
     "route_id": "C3-0",
     "route_color": "F8B323",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "C310835",
@@ -17054,6 +17134,7 @@
   {
     "route_id": "C4-0",
     "route_color": "77AD1C",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "C41094",
@@ -17173,6 +17254,7 @@
   {
     "route_id": "C6-0",
     "route_color": "BEABD0",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "C610431",
@@ -17553,6 +17635,7 @@
   {
     "route_id": "C7-0",
     "route_color": "CBD300",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "C710184",
@@ -17753,6 +17836,7 @@
   {
     "route_id": "C9-0",
     "route_color": "F5B8C6",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "C91073",
@@ -17929,6 +18013,7 @@
   {
     "route_id": "E1-0",
     "route_color": "E53138",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "E11067",
@@ -17992,6 +18077,7 @@
   {
     "route_id": "E4-0",
     "route_color": "E53138",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "E41052",
@@ -18027,6 +18113,7 @@
   {
     "route_id": "E5-0",
     "route_color": "E53138",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "E51067",
@@ -18094,6 +18181,7 @@
   {
     "route_id": "E8-0",
     "route_color": "E53138",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "E81071",
@@ -18161,6 +18249,7 @@
   {
     "route_id": "LCE-0",
     "route_color": "009534",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "LCE1055",
@@ -18358,6 +18447,7 @@
   {
     "route_id": "LCN-0",
     "route_color": "E53138",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "LCN1021",
@@ -18421,6 +18511,7 @@
   {
     "route_id": "LCO-0",
     "route_color": "34B4E4",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "LCO1023",
@@ -18488,6 +18579,7 @@
   {
     "route_id": "N1-0",
     "route_color": "2AAAB6",
+    "route_type": 4,
     "shapes": [
       {
         "shape_id": "N1102",
@@ -18507,6 +18599,7 @@
   {
     "route_id": "N2-0",
     "route_color": "2AAAB6",
+    "route_type": 4,
     "shapes": [
       {
         "shape_id": "N2101",
@@ -18526,6 +18619,7 @@
   {
     "route_id": "N3-0",
     "route_color": "2AAAB6",
+    "route_type": 4,
     "shapes": [
       {
         "shape_id": "N3101",
@@ -18545,6 +18639,7 @@
   {
     "route_id": "NA-0",
     "route_color": "34B4E4",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "NA10298",
@@ -18580,6 +18675,7 @@
   {
     "route_id": "NC-0",
     "route_color": "FFFFFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "NC103",
@@ -18723,6 +18819,7 @@
   {
     "route_id": "NGG-0",
     "route_color": "2581C4",
+    "route_type": 4,
     "shapes": [
       {
         "shape_id": "NGG103",
@@ -18742,6 +18839,7 @@
   {
     "route_id": "NN-0",
     "route_color": "F91AFF",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "NN1010",
@@ -19094,6 +19192,7 @@
   {
     "route_id": "NO-0",
     "route_color": "FFFA3E",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "NO104",
@@ -19510,6 +19609,7 @@
   {
     "route_id": "NS-0",
     "route_color": "00FFC2",
+    "route_type": 3,
     "shapes": [
       {
         "shape_id": "NS104",
