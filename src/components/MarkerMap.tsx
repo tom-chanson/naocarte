@@ -1,5 +1,7 @@
 import L from "leaflet";
 import { Marker, Popup } from "react-leaflet";
+
+import iconPointerMap from "../assets/pointer-map.png";
 import { Stop, stopLines } from "../interfaces/Stop";
 import "../styles/markerMap.css";
 
@@ -8,16 +10,17 @@ interface MarkerMapProps {
 }
 
 export const MarkerMap = ({ stop }: MarkerMapProps) => {
+  const lineBus = stop.stop_lines.filter((line) => line.route_type === 3);
+  const lineTram = stop.stop_lines.filter((line) => line.route_type === 0);
+  const lineBoat = stop.stop_lines.filter((line) => line.route_type === 4);
+
   const customIcon = L.icon({
-    iconUrl: "https://cdn-icons-png.flaticon.com/512/3448/3448339.png",
+    iconUrl: iconPointerMap,
     iconSize: [41, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
     shadowSize: [41, 41],
   });
-
-  const lineBus = stop.stop_lines.filter((line) => line.route_type === 3);
-  const lineTram = stop.stop_lines.filter((line) => line.route_type === 0);
 
   const accessible = (wheelchair_boarding: number) => {
     return wheelchair_boarding === 1 ? (
@@ -76,6 +79,11 @@ export const MarkerMap = ({ stop }: MarkerMapProps) => {
             showLine(
               lineTram,
               "https://cdn-icons-png.flaticon.com/512/66/66462.png"
+            )}
+          {lineBoat.length > 0 &&
+            showLine(
+              lineBoat,
+              "https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/Travel-pict-boat.png"
             )}
         </div>
       </Popup>

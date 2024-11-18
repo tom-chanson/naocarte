@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer, useMapEvents } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import "react-leaflet-markercluster/dist/styles.min.css";
+import shapeData from "../data/shape.json";
+import stopData from "../data/stop.json";
 import { Shape } from "../interfaces/shape";
 import { Stop } from "../interfaces/Stop";
 import { LineMap } from "./LineMap";
@@ -23,16 +25,8 @@ const MapComponent: React.FC = () => {
   };
 
   useEffect(() => {
-    fetch("data/stop.json").then((response) =>
-      response.json().then((data) => {
-        setStops(data);
-      })
-    );
-    fetch("data/shape.json").then((response) =>
-      response.json().then((data) => {
-        setShapes(data);
-      })
-    );
+    setStops(stopData);
+    setShapes(shapeData);
   }, []);
 
   return (
